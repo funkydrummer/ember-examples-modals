@@ -8,8 +8,11 @@ App.ModalController = Em.ObjectController.extend({
   },
 
   save: function() {
-    this.set('isEditing', false);
-    this.get('model').save();
+    this.get('model').save().then(function(){
+      console.log("Save successful");
+    },function(response){
+      console.log("Save not successful");
+    });
   },
 
   close: function() {

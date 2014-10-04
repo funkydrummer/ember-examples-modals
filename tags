@@ -1,0 +1,709 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Alias	tmp/ember-rails/ember.js	/^Alias = function(methodName) {$/;"	c
+App.animateModalClose	app/assets/javascripts/util/modal_animation.js	/^App.animateModalClose = function() {$/;"	f
+App.animateModalOpen	app/assets/javascripts/util/modal_animation.js	/^App.animateModalOpen = function() {$/;"	f
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Modal
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+Array	tmp/ember-rails/ember.js	/^    Array.prototype.map = arrayMap;$/;"	c
+Array.filter	tmp/ember-rails/ember.js	/^    Array.prototype.filter = arrayFilter;$/;"	m
+Array.forEach	tmp/ember-rails/ember.js	/^    Array.prototype.forEach = arrayForEach;$/;"	m
+Array.indexOf	tmp/ember-rails/ember.js	/^    Array.prototype.indexOf = arrayIndexOf;$/;"	m
+Array.map	tmp/ember-rails/ember.js	/^    Array.prototype.map = arrayMap;$/;"	m
+ArrayComputedProperty	tmp/ember-rails/ember.js	/^function ArrayComputedProperty() {$/;"	c
+ArrayComputedProperty.didChange	tmp/ember-rails/ember.js	/^ArrayComputedProperty.prototype.didChange = function (obj, keyName) {$/;"	m
+ArrayComputedProperty.initialValue	tmp/ember-rails/ember.js	/^ArrayComputedProperty.prototype.initialValue = function () {$/;"	m
+ArrayComputedProperty.resetValue	tmp/ember-rails/ember.js	/^ArrayComputedProperty.prototype.resetValue = function (array) {$/;"	m
+ArrayOperation	tmp/ember-rails/ember.js	/^function ArrayOperation (operation, count, items) {$/;"	c
+ArrayOperationMatch	tmp/ember-rails/ember.js	/^function ArrayOperationMatch(operation, index, split, rangeStart) {$/;"	c
+Backburner	tmp/ember-rails/ember.js	/^var Backburner = requireModule('backburner').Backburner,$/;"	v
+Binding	tmp/ember-rails/ember.js	/^var Binding = function(toPath, fromPath) {$/;"	c
+Binding._scheduleSync	tmp/ember-rails/ember.js	/^  _scheduleSync: function(obj, dir) {$/;"	m
+Binding._sync	tmp/ember-rails/ember.js	/^  _sync: function(obj) {$/;"	m
+Binding.connect	tmp/ember-rails/ember.js	/^  connect: function(obj) {$/;"	m
+Binding.copy	tmp/ember-rails/ember.js	/^  copy: function () {$/;"	m
+Binding.disconnect	tmp/ember-rails/ember.js	/^  disconnect: function(obj) {$/;"	m
+Binding.from	tmp/ember-rails/ember.js	/^  from: function(path) {$/;"	m
+Binding.fromDidChange	tmp/ember-rails/ember.js	/^  fromDidChange: function(target) {$/;"	m
+Binding.oneWay	tmp/ember-rails/ember.js	/^  oneWay: function() {$/;"	m
+Binding.to	tmp/ember-rails/ember.js	/^  to: function(path) {$/;"	m
+Binding.toDidChange	tmp/ember-rails/ember.js	/^  toDidChange: function(target) {$/;"	m
+Binding.toString	tmp/ember-rails/ember.js	/^  toString: function() {$/;"	m
+ChainNodePrototype	tmp/ember-rails/ember.js	/^var ChainNodePrototype = ChainNode.prototype;$/;"	v
+ChainNodePrototype.add	tmp/ember-rails/ember.js	/^ChainNodePrototype.add = function(path) {$/;"	c
+ChainNodePrototype.chain	tmp/ember-rails/ember.js	/^ChainNodePrototype.chain = function(key, path, src) {$/;"	f
+ChainNodePrototype.chainDidChange	tmp/ember-rails/ember.js	/^ChainNodePrototype.chainDidChange = function(chain, path, depth, events) {$/;"	f
+ChainNodePrototype.chainWillChange	tmp/ember-rails/ember.js	/^ChainNodePrototype.chainWillChange = function(chain, path, depth, events) {$/;"	f
+ChainNodePrototype.copy	tmp/ember-rails/ember.js	/^ChainNodePrototype.copy = function(obj) {$/;"	f
+ChainNodePrototype.destroy	tmp/ember-rails/ember.js	/^ChainNodePrototype.destroy = function() {$/;"	f
+ChainNodePrototype.didChange	tmp/ember-rails/ember.js	/^ChainNodePrototype.didChange = function(events) {$/;"	f
+ChainNodePrototype.remove	tmp/ember-rails/ember.js	/^ChainNodePrototype.remove = function(path) {$/;"	c
+ChainNodePrototype.unchain	tmp/ember-rails/ember.js	/^ChainNodePrototype.unchain = function(key, path) {$/;"	f
+ChainNodePrototype.value	tmp/ember-rails/ember.js	/^ChainNodePrototype.value = function() {$/;"	f
+ChainNodePrototype.willChange	tmp/ember-rails/ember.js	/^ChainNodePrototype.willChange = function(events) {$/;"	f
+Class._initMixins	tmp/ember-rails/ember.js	/^  Class._initMixins = function(args) { initMixins = args; };$/;"	f
+Class._initProperties	tmp/ember-rails/ember.js	/^  Class._initProperties = function(args) { initProperties = args; };$/;"	f
+Class.proto	tmp/ember-rails/ember.js	/^  Class.proto = function() {$/;"	f
+Class.willReopen	tmp/ember-rails/ember.js	/^  Class.willReopen = function() {$/;"	f
+ClassSet	tmp/ember-rails/ember.js	/^ClassSet.prototype = {$/;"	c
+ClassSet.add	tmp/ember-rails/ember.js	/^  add: function(string) {$/;"	m
+ClassSet.toDOM	tmp/ember-rails/ember.js	/^  toDOM: function() {$/;"	m
+Cog	app/models/cog.rb	/^class Cog < ActiveRecord::Base$/;"	c
+CogSerializer	app/serializers/cog_serializer.rb	/^class CogSerializer < ActiveModel::Serializer$/;"	c
+CogsController	app/controllers/cogs_controller.rb	/^class CogsController < ApplicationController$/;"	c
+ComputedProperty	tmp/ember-rails/ember.js	/^function ComputedProperty(func, opts) {$/;"	c
+ComputedPropertyPrototype.cacheable	tmp/ember-rails/ember.js	/^ComputedPropertyPrototype.cacheable = function(aFlag) {$/;"	c
+ComputedPropertyPrototype.didChange	tmp/ember-rails/ember.js	/^ComputedPropertyPrototype.didChange = function(obj, keyName) {$/;"	f
+ComputedPropertyPrototype.get	tmp/ember-rails/ember.js	/^ComputedPropertyPrototype.get = function(obj, keyName) {$/;"	f
+ComputedPropertyPrototype.meta	tmp/ember-rails/ember.js	/^ComputedPropertyPrototype.meta = function(meta) {$/;"	f
+ComputedPropertyPrototype.property	tmp/ember-rails/ember.js	/^ComputedPropertyPrototype.property = function() {$/;"	f
+ComputedPropertyPrototype.property.addArg	tmp/ember-rails/ember.js	/^  var addArg = function (property) {$/;"	f
+ComputedPropertyPrototype.readOnly	tmp/ember-rails/ember.js	/^ComputedPropertyPrototype.readOnly = function(readOnly) {$/;"	c
+ComputedPropertyPrototype.set	tmp/ember-rails/ember.js	/^ComputedPropertyPrototype.set = function(obj, keyName, value) {$/;"	c
+ComputedPropertyPrototype.teardown	tmp/ember-rails/ember.js	/^ComputedPropertyPrototype.teardown = function(obj, keyName) {$/;"	f
+ComputedPropertyPrototype.toString	tmp/ember-rails/ember.js	/^  ComputedPropertyPrototype.toString = function() {$/;"	f
+ComputedPropertyPrototype.volatile	tmp/ember-rails/ember.js	/^ComputedPropertyPrototype.volatile = function() {$/;"	f
+CoreObject.toString	tmp/ember-rails/ember.js	/^CoreObject.toString = function() { return "Ember.CoreObject"; };$/;"	f
+CreateCogs	db/migrate/20130419164652_create_cogs.rb	/^class CreateCogs < ActiveRecord::Migration$/;"	c
+CreateWidgets	db/migrate/20130418211208_create_widgets.rb	/^class CreateWidgets < ActiveRecord::Migration$/;"	c
+DOMManager.after	tmp/ember-rails/ember.js	/^  after: function(view, html) {$/;"	m
+DOMManager.empty	tmp/ember-rails/ember.js	/^  empty: function(view) {$/;"	m
+DOMManager.html	tmp/ember-rails/ember.js	/^  html: function(view, html) {$/;"	m
+DOMManager.prepend	tmp/ember-rails/ember.js	/^  prepend: function(view, html) {$/;"	m
+DOMManager.remove	tmp/ember-rails/ember.js	/^  remove: function(view) {$/;"	m
+DOMManager.replace	tmp/ember-rails/ember.js	/^  replace: function(view) {$/;"	m
+DSL	tmp/ember-rails/ember.js	/^DSL.prototype = {$/;"	c
+DSL.generate	tmp/ember-rails/ember.js	/^  generate: function() {$/;"	m
+DSL.map	tmp/ember-rails/ember.js	/^DSL.map = function(callback) {$/;"	f
+DSL.push	tmp/ember-rails/ember.js	/^  push: function(url, name, callback) {$/;"	m
+DSL.resource	tmp/ember-rails/ember.js	/^  resource: function(name, options, callback) {$/;"	m
+DSL.route	tmp/ember-rails/ember.js	/^  route: function(name, options) {$/;"	m
+DefaultView	tmp/ember-rails/ember.js	/^var DefaultView = Ember._MetamorphView;$/;"	v
+Deferred	tmp/ember-rails/ember.js	/^var Deferred = Ember.Object.extend(DeferredMixin);$/;"	v
+DependentArraysObserver	tmp/ember-rails/ember.js	/^function DependentArraysObserver(callbacks, cp, instanceMeta, context, propertyName, sugarMeta) {$/;"	c
+DependentArraysObserver.createPropertyObserver	tmp/ember-rails/ember.js	/^  createPropertyObserver: function (observerContext) {$/;"	m
+DependentArraysObserver.createPropertyObserverContext	tmp/ember-rails/ember.js	/^  createPropertyObserverContext: function (dependentArray, index, trackedArray) {$/;"	m
+DependentArraysObserver.dependentArrayDidChange	tmp/ember-rails/ember.js	/^  dependentArrayDidChange: function (dependentArray, index, removedCount, addedCount) {$/;"	m
+DependentArraysObserver.dependentArrayWillChange	tmp/ember-rails/ember.js	/^  dependentArrayWillChange: function (dependentArray, index, removedCount, addedCount) {$/;"	m
+DependentArraysObserver.dependentArrayWillChange.removeObservers	tmp/ember-rails/ember.js	/^    function removeObservers(propertyKey) {$/;"	f
+DependentArraysObserver.getValue	tmp/ember-rails/ember.js	/^  getValue: function () {$/;"	m
+DependentArraysObserver.itemPropertyWillChange	tmp/ember-rails/ember.js	/^  itemPropertyWillChange: function (obj, keyName, array, observerContext) {$/;"	m
+DependentArraysObserver.resetTransformations	tmp/ember-rails/ember.js	/^  resetTransformations: function (dependentKey, observerContexts) {$/;"	m
+DependentArraysObserver.setValue	tmp/ember-rails/ember.js	/^  setValue: function (newValue) {$/;"	m
+DependentArraysObserver.setupObservers	tmp/ember-rails/ember.js	/^  setupObservers: function (dependentArray, dependentKey) {$/;"	m
+DependentArraysObserver.setupPropertyObservers	tmp/ember-rails/ember.js	/^  setupPropertyObservers: function (dependentKey, itemPropertyKeys) {$/;"	m
+DependentArraysObserver.suspendArrayObservers	tmp/ember-rails/ember.js	/^  suspendArrayObservers: function (callback, binding) {$/;"	m
+DependentArraysObserver.teardownObservers	tmp/ember-rails/ember.js	/^  teardownObservers: function (dependentArray, dependentKey) {$/;"	m
+DependentArraysObserver.teardownPropertyObservers	tmp/ember-rails/ember.js	/^  teardownPropertyObservers: function (dependentKey, itemPropertyKeys) {$/;"	m
+DependentArraysObserver.trackAdd	tmp/ember-rails/ember.js	/^  trackAdd: function (dependentKey, index, newItems) {$/;"	m
+DependentArraysObserver.trackRemove	tmp/ember-rails/ember.js	/^  trackRemove: function (dependentKey, index, removedCount) {$/;"	m
+DependentArraysObserver.updateIndexes	tmp/ember-rails/ember.js	/^  updateIndexes: function (trackedArray, array) {$/;"	m
+EachArray	tmp/ember-rails/ember.js	/^var EachArray = Ember.Object.extend(Ember.Array, {$/;"	v
+Ember.A	tmp/ember-rails/ember.js	/^Ember.A = function(arr) {$/;"	f
+Ember.ArrayPolyfills.filter	tmp/ember-rails/ember.js	/^  filter: arrayFilter,$/;"	p
+Ember.ArrayPolyfills.forEach	tmp/ember-rails/ember.js	/^  forEach: arrayForEach,$/;"	p
+Ember.ArrayPolyfills.indexOf	tmp/ember-rails/ember.js	/^  indexOf: arrayIndexOf$/;"	p
+Ember.ArrayPolyfills.map	tmp/ember-rails/ember.js	/^  map: arrayMap,$/;"	p
+Ember.CollectionView.CONTAINER_MAP.ol	tmp/ember-rails/ember.js	/^  ol: 'li',$/;"	p
+Ember.CollectionView.CONTAINER_MAP.select	tmp/ember-rails/ember.js	/^  select: 'option'$/;"	p
+Ember.CollectionView.CONTAINER_MAP.table	tmp/ember-rails/ember.js	/^  table: 'tr',$/;"	p
+Ember.CollectionView.CONTAINER_MAP.tbody	tmp/ember-rails/ember.js	/^  tbody: 'tr',$/;"	p
+Ember.CollectionView.CONTAINER_MAP.tfoot	tmp/ember-rails/ember.js	/^  tfoot: 'tr',$/;"	p
+Ember.CollectionView.CONTAINER_MAP.thead	tmp/ember-rails/ember.js	/^  thead: 'tr',$/;"	p
+Ember.CollectionView.CONTAINER_MAP.tr	tmp/ember-rails/ember.js	/^  tr: 'td',$/;"	p
+Ember.CollectionView.CONTAINER_MAP.ul	tmp/ember-rails/ember.js	/^  ul: 'li',$/;"	p
+Ember.Descriptor	tmp/ember-rails/ember.js	/^Ember.Descriptor = function() {};$/;"	f
+Ember.Error	tmp/ember-rails/ember.js	/^Ember.Error = function() {$/;"	f
+Ember.Error	tmp/ember-rails/ember.js	/^Ember.Error.prototype = Ember.create(Error.prototype);$/;"	c
+Ember.FEATURES.isEnabled	tmp/ember-rails/ember.js	/^Ember.FEATURES.isEnabled = function(feature) {$/;"	f
+Ember.Handlebars.Compiler	tmp/ember-rails/ember.js	/^  Ember.Handlebars.Compiler.prototype = objectCreate(Handlebars.Compiler.prototype);$/;"	c
+Ember.Handlebars.Compiler	tmp/ember-rails/ember.js	/^Ember.Handlebars.Compiler = function() {};$/;"	f
+Ember.Handlebars.Compiler.compiler	tmp/ember-rails/ember.js	/^Ember.Handlebars.Compiler.prototype.compiler = Ember.Handlebars.Compiler;$/;"	m
+Ember.Handlebars.JavaScriptCompiler	tmp/ember-rails/ember.js	/^  Ember.Handlebars.JavaScriptCompiler.prototype = objectCreate(Handlebars.JavaScriptCompiler.prototype);$/;"	c
+Ember.Handlebars.JavaScriptCompiler	tmp/ember-rails/ember.js	/^Ember.Handlebars.JavaScriptCompiler = function() {};$/;"	f
+Ember.Handlebars.JavaScriptCompiler.appendToBuffer	tmp/ember-rails/ember.js	/^Ember.Handlebars.JavaScriptCompiler.prototype.appendToBuffer = function(string) {$/;"	m
+Ember.Handlebars.JavaScriptCompiler.compiler	tmp/ember-rails/ember.js	/^  Ember.Handlebars.JavaScriptCompiler.prototype.compiler = Ember.Handlebars.JavaScriptCompiler;$/;"	m
+Ember.Handlebars.JavaScriptCompiler.initializeBuffer	tmp/ember-rails/ember.js	/^Ember.Handlebars.JavaScriptCompiler.prototype.initializeBuffer = function() {$/;"	m
+Ember.Handlebars.JavaScriptCompiler.namespace	tmp/ember-rails/ember.js	/^Ember.Handlebars.JavaScriptCompiler.prototype.namespace = "Ember.Handlebars";$/;"	m
+Ember.Handlebars.getEscaped	tmp/ember-rails/ember.js	/^Ember.Handlebars.getEscaped = function(root, path, options) {$/;"	f
+Ember.Handlebars.helper	tmp/ember-rails/ember.js	/^Ember.Handlebars.helper = function(name, value) {$/;"	f
+Ember.Handlebars.makeBoundHelper	tmp/ember-rails/ember.js	/^Ember.Handlebars.makeBoundHelper = function(fn) {$/;"	f
+Ember.Handlebars.makeBoundHelper.helper	tmp/ember-rails/ember.js	/^  function helper() {$/;"	f
+Ember.Handlebars.makeViewHelper	tmp/ember-rails/ember.js	/^Ember.Handlebars.makeViewHelper = function(ViewClass) {$/;"	f
+Ember.Handlebars.registerBoundHelper	tmp/ember-rails/ember.js	/^Ember.Handlebars.registerBoundHelper = function(name, fn) {$/;"	f
+Ember.Handlebars.resolveHash	tmp/ember-rails/ember.js	/^Ember.Handlebars.resolveHash = function(context, hash, options) {$/;"	f
+Ember.Handlebars.resolveHelper	tmp/ember-rails/ember.js	/^Ember.Handlebars.resolveHelper = function(container, name) {$/;"	f
+Ember.Handlebars.resolveParams	tmp/ember-rails/ember.js	/^Ember.Handlebars.resolveParams = function(context, params, options) {$/;"	f
+Ember.Handlebars.template	tmp/ember-rails/ember.js	/^Ember.Handlebars.template = function(spec) {$/;"	f
+Ember.Instrumentation.instrument	tmp/ember-rails/ember.js	/^Ember.Instrumentation.instrument = function(name, payload, callback, binding) {$/;"	f
+Ember.Instrumentation.instrument.catchable	tmp/ember-rails/ember.js	/^  function catchable(e) {$/;"	f
+Ember.Instrumentation.instrument.finalizer	tmp/ember-rails/ember.js	/^  function finalizer() {$/;"	f
+Ember.Instrumentation.instrument.tryable	tmp/ember-rails/ember.js	/^  function tryable() {$/;"	f
+Ember.Instrumentation.reset	tmp/ember-rails/ember.js	/^Ember.Instrumentation.reset = function() {$/;"	f
+Ember.Instrumentation.subscribe	tmp/ember-rails/ember.js	/^Ember.Instrumentation.subscribe = function(pattern, object) {$/;"	f
+Ember.Instrumentation.subscribe.subscriber.pattern	tmp/ember-rails/ember.js	/^    pattern: pattern,$/;"	p
+Ember.Instrumentation.subscribe.subscriber.regex	tmp/ember-rails/ember.js	/^    regex: new RegExp("^" + regex + "$"),$/;"	p
+Ember.Instrumentation.unsubscribe	tmp/ember-rails/ember.js	/^Ember.Instrumentation.unsubscribe = function(subscriber) {$/;"	f
+Ember.K	tmp/ember-rails/ember.js	/^Ember.K = function() { return this; };$/;"	f
+Ember.Logger.log	tmp/ember-rails/ember.js	/^  log:   consoleMethod('log')   || Ember.K,$/;"	p
+Ember.Mixin	tmp/ember-rails/ember.js	/^Ember.Mixin = function() { return initMixin(this, arguments); };$/;"	f
+Ember.Mixin	tmp/ember-rails/ember.js	/^Ember.Mixin.prototype.toString = classToString;$/;"	c
+Ember.Mixin.toString	tmp/ember-rails/ember.js	/^Ember.Mixin.prototype.toString = classToString;$/;"	m
+Ember.NativeArray.activate	tmp/ember-rails/ember.js	/^Ember.NativeArray.activate = function() {$/;"	f
+Ember.RSVP.onerrorDefault	tmp/ember-rails/ember.js	/^Ember.RSVP.onerrorDefault = function(error) {$/;"	f
+Ember.String.camelize	tmp/ember-rails/ember.js	/^  camelize: function(str) {$/;"	m
+Ember.String.capitalize	tmp/ember-rails/ember.js	/^  capitalize: function(str) {$/;"	m
+Ember.String.classify	tmp/ember-rails/ember.js	/^  classify: function(str) {$/;"	m
+Ember.String.dasherize	tmp/ember-rails/ember.js	/^  dasherize: function(str) {$/;"	m
+Ember.String.decamelize	tmp/ember-rails/ember.js	/^  decamelize: function(str) {$/;"	m
+Ember.String.fmt	tmp/ember-rails/ember.js	/^  fmt: function(str, formats) {$/;"	m
+Ember.String.loc	tmp/ember-rails/ember.js	/^  loc: function(str, formats) {$/;"	m
+Ember.String.underscore	tmp/ember-rails/ember.js	/^  underscore: function(str) {$/;"	m
+Ember.String.w	tmp/ember-rails/ember.js	/^  w: function(str) { return str.split(\/\\s+\/); },$/;"	m
+Ember.SubArray	tmp/ember-rails/ember.js	/^Ember.SubArray = function (length) {$/;"	f
+Ember.SubArray	tmp/ember-rails/ember.js	/^Ember.SubArray.prototype = {$/;"	c
+Ember.SubArray._composeAt	tmp/ember-rails/ember.js	/^  _composeAt: function(index) {$/;"	m
+Ember.SubArray._findOperation	tmp/ember-rails/ember.js	/^  _findOperation: function (index, foundCallback, notFoundCallback) {$/;"	m
+Ember.SubArray.addItem	tmp/ember-rails/ember.js	/^  addItem: function(index, match) {$/;"	m
+Ember.SubArray.removeItem	tmp/ember-rails/ember.js	/^  removeItem: function(index) {$/;"	m
+Ember.SubArray.toString	tmp/ember-rails/ember.js	/^  toString: function () {$/;"	m
+Ember.TextSupport.KEY_EVENTS.13	tmp/ember-rails/ember.js	/^  13: 'insertNewline',$/;"	p
+Ember.TextSupport.KEY_EVENTS.27	tmp/ember-rails/ember.js	/^  27: 'cancel'$/;"	p
+Ember.TrackedArray	tmp/ember-rails/ember.js	/^Ember.TrackedArray = function (items) {$/;"	f
+Ember.TrackedArray	tmp/ember-rails/ember.js	/^Ember.TrackedArray.prototype = {$/;"	c
+Ember.TrackedArray._composeDelete	tmp/ember-rails/ember.js	/^  _composeDelete: function (index) {$/;"	m
+Ember.TrackedArray._composeInsert	tmp/ember-rails/ember.js	/^  _composeInsert: function (index) {$/;"	m
+Ember.TrackedArray._findArrayOperation	tmp/ember-rails/ember.js	/^  _findArrayOperation: function (index) {$/;"	m
+Ember.TrackedArray._split	tmp/ember-rails/ember.js	/^  _split: function (arrayOperationIndex, splitIndex, newArrayOperation) {$/;"	m
+Ember.TrackedArray.addItems	tmp/ember-rails/ember.js	/^  addItems: function (index, newItems) {$/;"	m
+Ember.TrackedArray.apply	tmp/ember-rails/ember.js	/^  apply: function (callback) {$/;"	m
+Ember.TrackedArray.removeItems	tmp/ember-rails/ember.js	/^  removeItems: function (index, count) {$/;"	m
+Ember.TrackedArray.toString	tmp/ember-rails/ember.js	/^  toString: function () {$/;"	m
+Ember.View.addMutationListener	tmp/ember-rails/ember.js	/^Ember.View.addMutationListener = function(callback) {$/;"	f
+Ember.View.applyAttributeBindings	tmp/ember-rails/ember.js	/^Ember.View.applyAttributeBindings = function(elem, name, value) {$/;"	f
+Ember.View.notifyMutationListeners	tmp/ember-rails/ember.js	/^Ember.View.notifyMutationListeners = function() {$/;"	f
+Ember.View.removeMutationListener	tmp/ember-rails/ember.js	/^Ember.View.removeMutationListener = function(callback) {$/;"	f
+Ember.View.states._default.$	tmp/ember-rails/ember.js	/^  $: function() {$/;"	m
+Ember.View.states._default.appendChild	tmp/ember-rails/ember.js	/^  appendChild: function() {$/;"	m
+Ember.View.states._default.destroyElement	tmp/ember-rails/ember.js	/^  destroyElement: function(view) {$/;"	m
+Ember.View.states._default.getElement	tmp/ember-rails/ember.js	/^  getElement: function() {$/;"	m
+Ember.View.states._default.handleEvent	tmp/ember-rails/ember.js	/^  handleEvent: function() {$/;"	m
+Ember.View.states._default.renderToBufferIfNeeded	tmp/ember-rails/ember.js	/^  renderToBufferIfNeeded: function () {$/;"	m
+Ember.View.states._default.rerender	tmp/ember-rails/ember.js	/^  rerender: Ember.K,$/;"	p
+Ember._suspendBeforeObserver	tmp/ember-rails/ember.js	/^Ember._suspendBeforeObserver = function(obj, path, target, method, callback) {$/;"	f
+Ember._suspendBeforeObservers	tmp/ember-rails/ember.js	/^Ember._suspendBeforeObservers = function(obj, paths, target, method, callback) {$/;"	f
+Ember._suspendObserver	tmp/ember-rails/ember.js	/^Ember._suspendObserver = function(obj, path, target, method, callback) {$/;"	f
+Ember._suspendObservers	tmp/ember-rails/ember.js	/^Ember._suspendObservers = function(obj, paths, target, method, callback) {$/;"	f
+Ember.addBeforeObserver	tmp/ember-rails/ember.js	/^Ember.addBeforeObserver = function(obj, _path, target, method) {$/;"	f
+Ember.addObserver	tmp/ember-rails/ember.js	/^Ember.addObserver = function(obj, _path, target, method) {$/;"	f
+Ember.aliasMethod	tmp/ember-rails/ember.js	/^Ember.aliasMethod = function(methodName) {$/;"	f
+Ember.arrayComputed	tmp/ember-rails/ember.js	/^Ember.arrayComputed = function (options) {$/;"	f
+Ember.assert	tmp/ember-rails/ember.js	/^Ember.assert = function(desc, test) {$/;"	f
+Ember.beforeObserver	tmp/ember-rails/ember.js	/^Ember.beforeObserver = function() {$/;"	f
+Ember.beforeObserver.addWatchedProperty	tmp/ember-rails/ember.js	/^  var addWatchedProperty = function(path) { paths.push(path); };$/;"	f
+Ember.beforeObserversFor	tmp/ember-rails/ember.js	/^Ember.beforeObserversFor = function(obj, path) {$/;"	f
+Ember.bind	tmp/ember-rails/ember.js	/^Ember.bind = function(obj, to, from) {$/;"	f
+Ember.cacheFor	tmp/ember-rails/ember.js	/^Ember.cacheFor = function cacheFor(obj, key) {$/;"	f
+Ember.changeProperties	tmp/ember-rails/ember.js	/^Ember.changeProperties = function(cb, binding) {$/;"	f
+Ember.compare	tmp/ember-rails/ember.js	/^Ember.compare = function compare(v, w) {$/;"	f
+Ember.computed	tmp/ember-rails/ember.js	/^Ember.computed = function(func) {$/;"	f
+Ember.computed.alias	tmp/ember-rails/ember.js	/^Ember.computed.alias = function(dependentKey) {$/;"	f
+Ember.computed.defaultTo	tmp/ember-rails/ember.js	/^Ember.computed.defaultTo = function(defaultPath) {$/;"	f
+Ember.computed.filter	tmp/ember-rails/ember.js	/^Ember.computed.filter = function(dependentKey, callback) {$/;"	f
+Ember.computed.filter.options.initialize	tmp/ember-rails/ember.js	/^    initialize: function (array, changeMeta, instanceMeta) {$/;"	m
+Ember.computed.filterBy	tmp/ember-rails/ember.js	/^Ember.computed.filterBy = function(dependentKey, propertyKey, value) {$/;"	f
+Ember.computed.intersect	tmp/ember-rails/ember.js	/^Ember.computed.intersect = function () {$/;"	f
+Ember.computed.intersect.getDependentKeyGuids	tmp/ember-rails/ember.js	/^  var getDependentKeyGuids = function (changeMeta) {$/;"	f
+Ember.computed.literal	tmp/ember-rails/ember.js	/^  Ember.computed.literal = function (value) {$/;"	f
+Ember.computed.map	tmp/ember-rails/ember.js	/^Ember.computed.map = function(dependentKey, callback) {$/;"	f
+Ember.computed.map.options.addedItem	tmp/ember-rails/ember.js	/^    addedItem: function(array, item, changeMeta, instanceMeta) {$/;"	m
+Ember.computed.mapBy	tmp/ember-rails/ember.js	/^Ember.computed.mapBy = function(dependentKey, propertyKey) {$/;"	f
+Ember.computed.mapBy.callback	tmp/ember-rails/ember.js	/^  var callback = function(item) { return get(item, propertyKey); };$/;"	f
+Ember.computed.max	tmp/ember-rails/ember.js	/^Ember.computed.max = function (dependentKey) {$/;"	f
+Ember.computed.min	tmp/ember-rails/ember.js	/^Ember.computed.min = function (dependentKey) {$/;"	f
+Ember.computed.oneWay	tmp/ember-rails/ember.js	/^Ember.computed.oneWay = function(dependentKey) {$/;"	f
+Ember.computed.readOnly	tmp/ember-rails/ember.js	/^Ember.computed.readOnly = function(dependentKey) {$/;"	f
+Ember.computed.setDiff	tmp/ember-rails/ember.js	/^Ember.computed.setDiff = function (setAProperty, setBProperty) {$/;"	f
+Ember.computed.sort	tmp/ember-rails/ember.js	/^Ember.computed.sort = function (itemsKey, sortDefinition) {$/;"	f
+Ember.computed.sum	tmp/ember-rails/ember.js	/^Ember.computed.sum = function(dependentKey){$/;"	f
+Ember.computed.uniq	tmp/ember-rails/ember.js	/^Ember.computed.uniq = function() {$/;"	f
+Ember.controllerFor	tmp/ember-rails/ember.js	/^Ember.controllerFor = function(container, controllerName, lookupOptions) {$/;"	f
+Ember.copy	tmp/ember-rails/ember.js	/^Ember.copy = function(obj, deep) {$/;"	f
+Ember.create	tmp/ember-rails/ember.js	/^  Ember.create = function(obj, props) {$/;"	f
+Ember.debug	tmp/ember-rails/ember.js	/^Ember.debug = function(message) {$/;"	f
+Ember.defineProperty	tmp/ember-rails/ember.js	/^Ember.defineProperty = function(obj, keyName, desc, data, meta) {$/;"	f
+Ember.deprecate	tmp/ember-rails/ember.js	/^Ember.deprecate = function(message, test) {$/;"	f
+Ember.deprecateFunc	tmp/ember-rails/ember.js	/^  Ember.deprecateFunc = function(_, func) { return func; };$/;"	f
+Ember.destroy	tmp/ember-rails/ember.js	/^Ember.destroy = function (obj) {$/;"	f
+Ember.expandProperties	tmp/ember-rails/ember.js	/^Ember.expandProperties = function (pattern, callback) {$/;"	f
+Ember.finishChains	tmp/ember-rails/ember.js	/^Ember.finishChains = function(obj) {$/;"	f
+Ember.flushPendingChains	tmp/ember-rails/ember.js	/^Ember.flushPendingChains = function() {$/;"	f
+Ember.generateController	tmp/ember-rails/ember.js	/^Ember.generateController = function(container, controllerName, context) {$/;"	f
+Ember.generateControllerFactory	tmp/ember-rails/ember.js	/^Ember.generateControllerFactory = function(container, controllerName, context) {$/;"	f
+Ember.generateGuid	tmp/ember-rails/ember.js	/^Ember.generateGuid = function generateGuid(obj, prefix) {$/;"	f
+Ember.getMeta	tmp/ember-rails/ember.js	/^Ember.getMeta = function getMeta(obj, property) {$/;"	f
+Ember.getProperties	tmp/ember-rails/ember.js	/^Ember.getProperties = function(obj) {$/;"	f
+Ember.getWithDefault	tmp/ember-rails/ember.js	/^Ember.getWithDefault = function(root, key, defaultValue) {$/;"	f
+Ember.guidFor	tmp/ember-rails/ember.js	/^Ember.guidFor = function guidFor(obj) {$/;"	f
+Ember.immediateObserver	tmp/ember-rails/ember.js	/^Ember.immediateObserver = function() {$/;"	f
+Ember.inspect	tmp/ember-rails/ember.js	/^Ember.inspect = function(obj) {$/;"	f
+Ember.isArray	tmp/ember-rails/ember.js	/^Ember.isArray = function(obj) {$/;"	f
+Ember.isBlank	tmp/ember-rails/ember.js	/^  Ember.isBlank = function(obj) {$/;"	f
+Ember.isEmpty	tmp/ember-rails/ember.js	/^Ember.isEmpty = function(obj) {$/;"	f
+Ember.isEqual	tmp/ember-rails/ember.js	/^Ember.isEqual = function(a, b) {$/;"	f
+Ember.isNone	tmp/ember-rails/ember.js	/^Ember.isNone = function(obj) {$/;"	f
+Ember.isWatching	tmp/ember-rails/ember.js	/^Ember.isWatching = function isWatching(obj, key) {$/;"	f
+Ember.keys	tmp/ember-rails/ember.js	/^  Ember.keys = function(obj) {$/;"	f
+Ember.libraries	tmp/ember-rails/ember.js	/^Ember.libraries = function() {$/;"	f
+Ember.libraries.getLibrary	tmp/ember-rails/ember.js	/^  var getLibrary = function(name) {$/;"	f
+Ember.makeArray	tmp/ember-rails/ember.js	/^Ember.makeArray = function(obj) {$/;"	f
+Ember.merge	tmp/ember-rails/ember.js	/^Ember.merge = function(original, updates) {$/;"	f
+Ember.meta	tmp/ember-rails/ember.js	/^Ember.meta = function meta(obj, writable) {$/;"	f
+Ember.metaPath	tmp/ember-rails/ember.js	/^Ember.metaPath = function metaPath(obj, path, writable) {$/;"	f
+Ember.mixin	tmp/ember-rails/ember.js	/^Ember.mixin = function(obj) {$/;"	f
+Ember.observer	tmp/ember-rails/ember.js	/^Ember.observer = function() {$/;"	f
+Ember.observer.addWatchedProperty	tmp/ember-rails/ember.js	/^  var addWatchedProperty = function (path) { paths.push(path); };$/;"	f
+Ember.observersFor	tmp/ember-rails/ember.js	/^Ember.observersFor = function(obj, path) {$/;"	f
+Ember.on	tmp/ember-rails/ember.js	/^Ember.on = function(){$/;"	f
+Ember.onLoad	tmp/ember-rails/ember.js	/^Ember.onLoad = function(name, callback) {$/;"	f
+Ember.oneWay	tmp/ember-rails/ember.js	/^Ember.oneWay = function(obj, to, from) {$/;"	f
+Ember.overrideChains	tmp/ember-rails/ember.js	/^Ember.overrideChains = function(obj, keyName, m) {$/;"	f
+Ember.reduceComputed	tmp/ember-rails/ember.js	/^Ember.reduceComputed = function (options) {$/;"	f
+Ember.removeBeforeObserver	tmp/ember-rails/ember.js	/^Ember.removeBeforeObserver = function(obj, _path, target, method) {$/;"	f
+Ember.removeObserver	tmp/ember-rails/ember.js	/^Ember.removeObserver = function(obj, _path, target, method) {$/;"	f
+Ember.required	tmp/ember-rails/ember.js	/^Ember.required = function() {$/;"	f
+Ember.rewatch	tmp/ember-rails/ember.js	/^Ember.rewatch = function(obj) {$/;"	f
+Ember.run	tmp/ember-rails/ember.js	/^Ember.run = function() {$/;"	f
+Ember.run.begin	tmp/ember-rails/ember.js	/^Ember.run.begin = function() {$/;"	f
+Ember.run.bind	tmp/ember-rails/ember.js	/^Ember.run.bind = function(target, method \/* args*\/) {$/;"	f
+Ember.run.cancel	tmp/ember-rails/ember.js	/^Ember.run.cancel = function(timer) {$/;"	f
+Ember.run.cancelTimers	tmp/ember-rails/ember.js	/^Ember.run.cancelTimers = function () {$/;"	f
+Ember.run.debounce	tmp/ember-rails/ember.js	/^Ember.run.debounce = function() {$/;"	f
+Ember.run.end	tmp/ember-rails/ember.js	/^Ember.run.end = function() {$/;"	f
+Ember.run.hasScheduledTimers	tmp/ember-rails/ember.js	/^Ember.run.hasScheduledTimers = function() {$/;"	f
+Ember.run.join	tmp/ember-rails/ember.js	/^Ember.run.join = function(target, method \/* args *\/) {$/;"	f
+Ember.run.later	tmp/ember-rails/ember.js	/^Ember.run.later = function(target, method) {$/;"	f
+Ember.run.next	tmp/ember-rails/ember.js	/^Ember.run.next = function() {$/;"	f
+Ember.run.once	tmp/ember-rails/ember.js	/^Ember.run.once = function(target, method) {$/;"	f
+Ember.run.schedule	tmp/ember-rails/ember.js	/^Ember.run.schedule = function(queue, target, method) {$/;"	f
+Ember.run.scheduleOnce	tmp/ember-rails/ember.js	/^Ember.run.scheduleOnce = function(queue, target, method) {$/;"	f
+Ember.run.sync	tmp/ember-rails/ember.js	/^Ember.run.sync = function() {$/;"	f
+Ember.run.throttle	tmp/ember-rails/ember.js	/^Ember.run.throttle = function() {$/;"	f
+Ember.runLoadHooks	tmp/ember-rails/ember.js	/^Ember.runLoadHooks = function(name, object) {$/;"	f
+Ember.setMeta	tmp/ember-rails/ember.js	/^Ember.setMeta = function setMeta(obj, property, value) {$/;"	f
+Ember.setProperties	tmp/ember-rails/ember.js	/^Ember.setProperties = function(self, hash) {$/;"	f
+Ember.toString	tmp/ember-rails/ember.js	/^Ember.toString = function() { return "Ember"; };$/;"	f
+Ember.tryCatchFinally	tmp/ember-rails/ember.js	/^  Ember.tryCatchFinally = function(tryable, catchable, finalizer, binding) {$/;"	f
+Ember.tryFinally	tmp/ember-rails/ember.js	/^  Ember.tryFinally = function(tryable, finalizer, binding) {$/;"	f
+Ember.tryInvoke	tmp/ember-rails/ember.js	/^Ember.tryInvoke = function(obj, methodName, args) {$/;"	f
+Ember.trySet	tmp/ember-rails/ember.js	/^Ember.trySet = function(root, path, value) {$/;"	f
+Ember.typeOf	tmp/ember-rails/ember.js	/^Ember.typeOf = function(item) {$/;"	f
+Ember.unwatch	tmp/ember-rails/ember.js	/^Ember.unwatch = function(obj, _keyPath, m) {$/;"	f
+Ember.unwatchKey	tmp/ember-rails/ember.js	/^Ember.unwatchKey = function(obj, keyName, meta) {$/;"	f
+Ember.unwatchPath	tmp/ember-rails/ember.js	/^Ember.unwatchPath = function(obj, keyPath, meta) {$/;"	f
+Ember.warn	tmp/ember-rails/ember.js	/^Ember.warn = function(message, test) {$/;"	f
+Ember.watch	tmp/ember-rails/ember.js	/^Ember.watch = function(obj, _keyPath, m) {$/;"	f
+Ember.watchKey	tmp/ember-rails/ember.js	/^Ember.watchKey = function(obj, keyName, meta) {$/;"	f
+Ember.watchPath	tmp/ember-rails/ember.js	/^Ember.watchPath = function(obj, keyPath, meta) {$/;"	f
+Ember.wrap	tmp/ember-rails/ember.js	/^Ember.wrap = function(func, superFunc) {$/;"	f
+Ember.wrap.superWrapper	tmp/ember-rails/ember.js	/^  function superWrapper() {$/;"	c
+EmberHandlebars	tmp/ember-rails/ember.js	/^var EmberHandlebars = Ember.Handlebars, helpers = EmberHandlebars.helpers;$/;"	v
+EmberHandlebars	tmp/ember-rails/ember.js	/^var EmberHandlebars = Ember.Handlebars;$/;"	v
+EmberHandlebars.bindClasses	tmp/ember-rails/ember.js	/^EmberHandlebars.bindClasses = function(context, classBindings, view, bindAttrId, options) {$/;"	f
+EmberHandlebars.bindClasses.classStringForPath	tmp/ember-rails/ember.js	/^  var classStringForPath = function(root, parsedPath, options) {$/;"	f
+F	tmp/ember-rails/ember.js	/^  F.prototype = parent;$/;"	c
+FAILED	tmp/ember-rails/ember-data.js	/^  var FAILED = false;$/;"	v
+Function.var.addWatchedProperty	tmp/ember-rails/ember.js	/^    var addWatchedProperty = function (obs) { watched.push(obs); };$/;"	f
+GUID_DESC.configurable	tmp/ember-rails/ember.js	/^  configurable: false,$/;"	p
+GUID_DESC.enumerable	tmp/ember-rails/ember.js	/^  enumerable:  false,$/;"	p
+GUID_DESC.value	tmp/ember-rails/ember.js	/^  value: null$/;"	p
+GUID_DESC.writable	tmp/ember-rails/ember.js	/^  writable:    false,$/;"	p
+GroupedEach	tmp/ember-rails/ember.js	/^GroupedEach.prototype = {$/;"	c
+GroupedEach.contentArrayWillChange	tmp/ember-rails/ember.js	/^  contentArrayWillChange: Ember.K,$/;"	p
+GroupedEach.contentDidChange	tmp/ember-rails/ember.js	/^  contentDidChange: function() {$/;"	m
+GroupedEach.contentWillChange	tmp/ember-rails/ember.js	/^  contentWillChange: function() {$/;"	m
+Handlebars.bootstrap	tmp/ember-rails/ember.js	/^(function() {$/;"	f
+Handlebars.resolvePaths	tmp/ember-rails/ember.js	/^(function() {$/;"	f
+IS_BINDING	tmp/ember-rails/ember.js	/^var IS_BINDING = Ember.IS_BINDING = \/^.+Binding$\/;$/;"	v
+ItemPropertyObserverContext	tmp/ember-rails/ember.js	/^function ItemPropertyObserverContext (dependentArray, index, trackedArray) {$/;"	c
+K	tmp/ember-rails/ember.js	/^    K.prototype = obj;$/;"	c
+MANDATORY_SETTER	tmp/ember-rails/ember.js	/^var MANDATORY_SETTER = Ember.ENV.MANDATORY_SETTER;$/;"	v
+META_KEY	tmp/ember-rails/ember.js	/^var META_KEY = Ember.GUID_KEY+'_meta';$/;"	v
+Map	tmp/ember-rails/ember.js	/^Map.prototype = {$/;"	c
+Map.copy	tmp/ember-rails/ember.js	/^  copy: function() {$/;"	m
+Map.create	tmp/ember-rails/ember.js	/^Map.create = function() {$/;"	f
+Map.forEach	tmp/ember-rails/ember.js	/^  forEach: function(callback, self) {$/;"	m
+Map.get	tmp/ember-rails/ember.js	/^  get: function(key) {$/;"	m
+Map.has	tmp/ember-rails/ember.js	/^  has: function(key) {$/;"	m
+Map.length	tmp/ember-rails/ember.js	/^  length: 0,$/;"	p
+Map.remove	tmp/ember-rails/ember.js	/^  remove: function(key) {$/;"	m
+Map.set	tmp/ember-rails/ember.js	/^  set: function(key, value) {$/;"	m
+MapWithDefault	tmp/ember-rails/ember.js	/^MapWithDefault.prototype = Ember.create(Map.prototype);$/;"	c
+MapWithDefault.copy	tmp/ember-rails/ember.js	/^MapWithDefault.prototype.copy = function() {$/;"	m
+MapWithDefault.create	tmp/ember-rails/ember.js	/^MapWithDefault.create = function(options) {$/;"	f
+MapWithDefault.get	tmp/ember-rails/ember.js	/^MapWithDefault.prototype.get = function(key) {$/;"	m
+MapWithDefault.return	tmp/ember-rails/ember.js	/^    return Map.prototype.get.call(this, key);$/;"	c
+Meta	tmp/ember-rails/ember.js	/^function Meta(obj) {$/;"	c
+Meta.__preventPlainObject__	tmp/ember-rails/ember.js	/^  Meta.prototype.__preventPlainObject__ = true;$/;"	m
+Meta.bindings	tmp/ember-rails/ember.js	/^  bindings: null,$/;"	p
+Meta.cache	tmp/ember-rails/ember.js	/^  cache: null,$/;"	p
+Meta.cacheMeta	tmp/ember-rails/ember.js	/^  cacheMeta: null,$/;"	p
+Meta.chainWatchers	tmp/ember-rails/ember.js	/^  chainWatchers: null,$/;"	p
+Meta.chains	tmp/ember-rails/ember.js	/^  chains: null,$/;"	p
+Meta.deps	tmp/ember-rails/ember.js	/^  deps: null,$/;"	p
+Meta.descs	tmp/ember-rails/ember.js	/^  descs: null,$/;"	p
+Meta.listeners	tmp/ember-rails/ember.js	/^  listeners: null,$/;"	p
+Meta.mixins	tmp/ember-rails/ember.js	/^  mixins: null,$/;"	p
+Meta.proto	tmp/ember-rails/ember.js	/^  proto: null$/;"	p
+Meta.source	tmp/ember-rails/ember.js	/^  source: null,$/;"	p
+Meta.toJSON	tmp/ember-rails/ember.js	/^  Meta.prototype.toJSON = function () { };$/;"	m
+Meta.values	tmp/ember-rails/ember.js	/^  values: null,$/;"	p
+Meta.watching	tmp/ember-rails/ember.js	/^  watching: null,$/;"	p
+Metamorph	tmp/ember-rails/ember.js	/^var Metamorph = requireModule('metamorph');$/;"	v
+Mixin	tmp/ember-rails/ember.js	/^Mixin.prototype = {$/;"	c
+Mixin.applyPartial	tmp/ember-rails/ember.js	/^Mixin.applyPartial = function(obj) {$/;"	f
+Mixin.create	tmp/ember-rails/ember.js	/^Mixin.create = function() {$/;"	f
+Mixin.mixins	tmp/ember-rails/ember.js	/^  mixins: null,$/;"	p
+Mixin.mixins	tmp/ember-rails/ember.js	/^Mixin.mixins = function(obj) {$/;"	f
+Mixin.ownerConstructor	tmp/ember-rails/ember.js	/^  ownerConstructor: null$/;"	p
+Mixin.properties	tmp/ember-rails/ember.js	/^  properties: null,$/;"	p
+MixinPrototype.apply	tmp/ember-rails/ember.js	/^MixinPrototype.apply = function(obj) {$/;"	f
+MixinPrototype.applyPartial	tmp/ember-rails/ember.js	/^MixinPrototype.applyPartial = function(obj) {$/;"	f
+MixinPrototype.detect	tmp/ember-rails/ember.js	/^MixinPrototype.detect = function(obj) {$/;"	f
+MixinPrototype.keys	tmp/ember-rails/ember.js	/^MixinPrototype.keys = function() {$/;"	f
+MixinPrototype.reopen	tmp/ember-rails/ember.js	/^MixinPrototype.reopen = function() {$/;"	f
+MixinPrototype.without	tmp/ember-rails/ember.js	/^MixinPrototype.without = function() {$/;"	f
+Modal	config/application.rb	/^module Modal$/;"	m
+NAMESPACES_BY_ID	tmp/ember-rails/ember.js	/^var NAMESPACES_BY_ID = Namespace.NAMESPACES_BY_ID;$/;"	v
+NAME_KEY	tmp/ember-rails/ember.js	/^var NAME_KEY = Ember.NAME_KEY = Ember.GUID_KEY + '_name';$/;"	v
+Namespace	tmp/ember-rails/ember.js	/^var Namespace = Ember.Namespace = Ember.Object.extend({$/;"	v
+NativeArray	tmp/ember-rails/ember.js	/^var NativeArray = Ember.Mixin.create(Ember.MutableArray, Ember.Observable, Ember.Copyable, {$/;"	v
+ObserverSet	tmp/ember-rails/ember.js	/^ObserverSet.prototype.add = function(sender, keyName, eventName) {$/;"	c
+ObserverSet.add	tmp/ember-rails/ember.js	/^ObserverSet.prototype.add = function(sender, keyName, eventName) {$/;"	m
+ObserverSet.clear	tmp/ember-rails/ember.js	/^ObserverSet.prototype.clear = function() {$/;"	m
+ObserverSet.flush	tmp/ember-rails/ember.js	/^ObserverSet.prototype.flush = function() {$/;"	m
+Operation	tmp/ember-rails/ember.js	/^function Operation (type, count) {$/;"	c
+OrderedSet	tmp/ember-rails/ember.js	/^OrderedSet.prototype = {$/;"	c
+OrderedSet.add	tmp/ember-rails/ember.js	/^  add: function(obj) {$/;"	m
+OrderedSet.clear	tmp/ember-rails/ember.js	/^  clear: function() {$/;"	m
+OrderedSet.copy	tmp/ember-rails/ember.js	/^  copy: function() {$/;"	m
+OrderedSet.create	tmp/ember-rails/ember.js	/^OrderedSet.create = function() {$/;"	f
+OrderedSet.forEach	tmp/ember-rails/ember.js	/^  forEach: function(fn, self) {$/;"	m
+OrderedSet.has	tmp/ember-rails/ember.js	/^  has: function(obj) {$/;"	m
+OrderedSet.isEmpty	tmp/ember-rails/ember.js	/^  isEmpty: function() {$/;"	m
+OrderedSet.remove	tmp/ember-rails/ember.js	/^  remove: function(obj) {$/;"	m
+OrderedSet.toArray	tmp/ember-rails/ember.js	/^  toArray: function() {$/;"	m
+REQUIRED.toString	tmp/ember-rails/ember.js	/^REQUIRED.toString = function() { return '(Required Property)'; };$/;"	f
+RSVP.Promise	tmp/ember-rails/ember.js	/^RSVP.Promise.prototype.fail = function(callback, label){$/;"	c
+RSVP.Promise.fail	tmp/ember-rails/ember.js	/^RSVP.Promise.prototype.fail = function(callback, label){$/;"	m
+ReduceComputedProperty	tmp/ember-rails/ember.js	/^function ReduceComputedProperty(options) {$/;"	c
+ReduceComputedProperty._callbacks	tmp/ember-rails/ember.js	/^ReduceComputedProperty.prototype._callbacks = function () {$/;"	m
+ReduceComputedProperty._hasInstanceMeta	tmp/ember-rails/ember.js	/^ReduceComputedProperty.prototype._hasInstanceMeta = function (context, propertyName) {$/;"	m
+ReduceComputedProperty._instanceMeta	tmp/ember-rails/ember.js	/^ReduceComputedProperty.prototype._instanceMeta = function (context, propertyName) {$/;"	m
+ReduceComputedProperty.clearItemPropertyKeys	tmp/ember-rails/ember.js	/^ReduceComputedProperty.prototype.clearItemPropertyKeys = function (dependentArrayKey) {$/;"	m
+ReduceComputedProperty.func	tmp/ember-rails/ember.js	/^  this.func = function (propertyName) {$/;"	m
+ReduceComputedProperty.initialValue	tmp/ember-rails/ember.js	/^ReduceComputedProperty.prototype.initialValue = function () {$/;"	m
+ReduceComputedProperty.itemPropertyKey	tmp/ember-rails/ember.js	/^ReduceComputedProperty.prototype.itemPropertyKey = function (dependentArrayKey, itemPropertyKey) {$/;"	m
+ReduceComputedProperty.property	tmp/ember-rails/ember.js	/^ReduceComputedProperty.prototype.property = function () {$/;"	m
+ReduceComputedProperty.recompute	tmp/ember-rails/ember.js	/^  var recompute = function(propertyName) {$/;"	m
+ReduceComputedProperty.recomputeOnce	tmp/ember-rails/ember.js	/^  this.recomputeOnce = function(propertyName) {$/;"	m
+ReduceComputedProperty.resetValue	tmp/ember-rails/ember.js	/^ReduceComputedProperty.prototype.resetValue = function (value) {$/;"	m
+ReduceComputedProperty.this.callbacks.removedItem	tmp/ember-rails/ember.js	/^      removedItem: options.removedItem || defaultCallback,$/;"	p
+ReduceComputedPropertyInstanceMeta	tmp/ember-rails/ember.js	/^function ReduceComputedPropertyInstanceMeta(context, propertyName, initialValue) {$/;"	c
+ReduceComputedPropertyInstanceMeta.getValue	tmp/ember-rails/ember.js	/^  getValue: function () {$/;"	m
+ReduceComputedPropertyInstanceMeta.setValue	tmp/ember-rails/ember.js	/^  setValue: function(newValue, triggerObservers) {$/;"	m
+Router	tmp/ember-rails/ember.js	/^var Router = routerJsModule.Router;$/;"	v
+SimpleHandlebarsView	tmp/ember-rails/ember.js	/^function SimpleHandlebarsView(path, pathRoot, isEscaped, templateData) {$/;"	c
+SimpleHandlebarsView.destroy	tmp/ember-rails/ember.js	/^  destroy: function () {$/;"	m
+SimpleHandlebarsView.isView	tmp/ember-rails/ember.js	/^  isView: true,$/;"	p
+SimpleHandlebarsView.isVirtual	tmp/ember-rails/ember.js	/^  isVirtual: true,$/;"	p
+SimpleHandlebarsView.propertyWillChange	tmp/ember-rails/ember.js	/^  propertyWillChange: Ember.K,$/;"	p
+String	tmp/ember-rails/ember.js	/^  String.prototype.fmt = function() {$/;"	c
+String.camelize	tmp/ember-rails/ember.js	/^  String.prototype.camelize = function() {$/;"	m
+String.capitalize	tmp/ember-rails/ember.js	/^  String.prototype.capitalize = function() {$/;"	m
+String.classify	tmp/ember-rails/ember.js	/^  String.prototype.classify = function() {$/;"	m
+String.dasherize	tmp/ember-rails/ember.js	/^  String.prototype.dasherize = function() {$/;"	m
+String.decamelize	tmp/ember-rails/ember.js	/^  String.prototype.decamelize = function() {$/;"	m
+String.fmt	tmp/ember-rails/ember.js	/^  String.prototype.fmt = function() {$/;"	m
+String.htmlSafe	tmp/ember-rails/ember.js	/^  String.prototype.htmlSafe = function() {$/;"	m
+String.htmlSafe	tmp/ember-rails/ember.js	/^(function() {$/;"	f
+String.loc	tmp/ember-rails/ember.js	/^  String.prototype.loc = function() {$/;"	m
+String.underscore	tmp/ember-rails/ember.js	/^  String.prototype.underscore = function() {$/;"	m
+String.w	tmp/ember-rails/ember.js	/^  String.prototype.w = function() {$/;"	m
+Transition	tmp/ember-rails/ember.js	/^var Transition = routerJsModule.Transition;$/;"	v
+View.cloneStates	tmp/ember-rails/ember.js	/^(function() {$/;"	f
+ViewCollection	tmp/ember-rails/ember.js	/^ViewCollection.prototype = {$/;"	c
+ViewCollection	tmp/ember-rails/ember.js	/^var ViewCollection = Ember._ViewCollection;$/;"	v
+ViewCollection.clear	tmp/ember-rails/ember.js	/^  clear: function() {$/;"	m
+ViewCollection.forEach	tmp/ember-rails/ember.js	/^  forEach: function(callback) {$/;"	m
+ViewCollection.invokeRecursively	tmp/ember-rails/ember.js	/^  invokeRecursively: function(fn) {$/;"	m
+ViewCollection.length	tmp/ember-rails/ember.js	/^  length: 0,$/;"	p
+ViewCollection.push	tmp/ember-rails/ember.js	/^  push: function() {$/;"	m
+ViewCollection.transitionTo	tmp/ember-rails/ember.js	/^  transitionTo: function(state, children) {$/;"	m
+ViewCollection.trigger	tmp/ember-rails/ember.js	/^  trigger: function(eventName) {$/;"	m
+ViewCollection.triggerRecursively	tmp/ember-rails/ember.js	/^  triggerRecursively: function(eventName) {$/;"	m
+WILL_SEEN	tmp/ember-rails/ember.js	/^var WILL_SEEN, DID_SEEN;$/;"	v
+WelcomeController	app/controllers/welcome_controller.rb	/^class WelcomeController < ApplicationController$/;"	c
+Widget	app/models/widget.rb	/^class Widget < ActiveRecord::Base$/;"	c
+WidgetSerializer	app/serializers/widget_serializer.rb	/^class WidgetSerializer < ActiveModel::Serializer$/;"	c
+WidgetsController	app/controllers/widgets_controller.rb	/^class WidgetsController < ApplicationController$/;"	c
+_addMetamorphCheck	tmp/ember-rails/ember.js	/^function _addMetamorphCheck() {$/;"	f
+_copy	tmp/ember-rails/ember.js	/^function _copy(obj, deep, seen, copies) {$/;"	f
+_detect	tmp/ember-rails/ember.js	/^function _detect(curMixin, targetMixin, seen) {$/;"	f
+_keys	tmp/ember-rails/ember.js	/^function _keys(ret, mixin, seen) {$/;"	f
+a_indexOf	tmp/ember-rails/ember.js	/^var a_indexOf = Ember.EnumerableUtils.indexOf;$/;"	v
+actionsDiff	tmp/ember-rails/ember.js	/^function actionsDiff(obj, eventName, otherActions) {$/;"	f
+actionsFor	tmp/ember-rails/ember.js	/^function actionsFor(obj, eventName) {$/;"	f
+actionsUnion	tmp/ember-rails/ember.js	/^function actionsUnion(obj, eventName, otherActions) {$/;"	f
+addChainWatcher	tmp/ember-rails/ember.js	/^function addChainWatcher(obj, keyName, node) {$/;"	f
+addDependentKeys	tmp/ember-rails/ember.js	/^function addDependentKeys(desc, obj, keyName, meta) {$/;"	f
+addItems	tmp/ember-rails/ember.js	/^function addItems (dependentArray, callbacks, cp, propertyName, meta) {$/;"	f
+addListener	tmp/ember-rails/ember.js	/^function addListener(obj, eventName, target, method, once) {$/;"	f
+addNormalizedProperty	tmp/ember-rails/ember.js	/^function addNormalizedProperty(base, key, value, meta, descs, values, concats, mergings) {$/;"	f
+addObserverForContentKey	tmp/ember-rails/ember.js	/^function addObserverForContentKey(content, keyName, proxy, idx, loc) {$/;"	f
+applyConcatenatedProperties	tmp/ember-rails/ember.js	/^function applyConcatenatedProperties(obj, key, value, values) {$/;"	f
+applyMergedProperties	tmp/ember-rails/ember.js	/^function applyMergedProperties(obj, key, value, values) {$/;"	f
+applyMixin	tmp/ember-rails/ember.js	/^function applyMixin(obj, mixins, partial) {$/;"	f
+assertPolyfill	tmp/ember-rails/ember.js	/^function assertPolyfill(test, message) {$/;"	f
+beforeEvent	tmp/ember-rails/ember.js	/^function beforeEvent(keyName) {$/;"	f
+beginPropertyChanges	tmp/ember-rails/ember.js	/^function beginPropertyChanges() {$/;"	f
+binarySearch	tmp/ember-rails/ember.js	/^function binarySearch(array, item, low, high) {$/;"	f
+binarySearch._guidFor	tmp/ember-rails/ember.js	/^  function _guidFor(item) {$/;"	f
+bind	tmp/ember-rails/ember.js	/^function bind(property, options, preserveContext, shouldDisplay, valueNormalizer, childProperties) {$/;"	f
+bindView.normalizedValue	tmp/ember-rails/ember.js	/^    bindView.normalizedValue = function() {$/;"	f
+bootstrap	tmp/ember-rails/ember.js	/^function bootstrap() {$/;"	f
+cacheFor	tmp/ember-rails/ember.js	/^Ember.cacheFor = function cacheFor(obj, key) {$/;"	f
+callback	tmp/ember-rails/ember.js	/^    callback = function(item) {$/;"	f
+canInvoke	tmp/ember-rails/ember.js	/^function canInvoke(obj, methodName) {$/;"	f
+canRedefineProperties	tmp/ember-rails/ember.js	/^var canRedefineProperties, canDefinePropertyOnDOM;$/;"	v
+chainsDidChange	tmp/ember-rails/ember.js	/^function chainsDidChange(obj, keyName, m, suppressEvents) {$/;"	f
+chainsFor	tmp/ember-rails/ember.js	/^function chainsFor(obj, meta) {$/;"	f
+chainsWillChange	tmp/ember-rails/ember.js	/^function chainsWillChange(obj, keyName, m) {$/;"	f
+change	db/migrate/20130418211208_create_widgets.rb	/^  def change$/;"	f	class:CreateWidgets
+change	db/migrate/20130419164652_create_cogs.rb	/^  def change$/;"	f	class:CreateCogs
+changeEvent	tmp/ember-rails/ember.js	/^function changeEvent(keyName) {$/;"	f
+checkAutoRun	tmp/ember-rails/ember.js	/^function checkAutoRun() {$/;"	f
+childViewsProperty	tmp/ember-rails/ember.js	/^var childViewsProperty = Ember.computed(function() {$/;"	v
+classToString	tmp/ember-rails/ember.js	/^function classToString() {$/;"	f
+compare	tmp/ember-rails/ember.js	/^Ember.compare = function compare(v, w) {$/;"	f
+concatenatedMixinProperties	tmp/ember-rails/ember.js	/^function concatenatedMixinProperties(concatProp, props, values, base) {$/;"	f
+connectBindings	tmp/ember-rails/ember.js	/^function connectBindings(obj, m) {$/;"	f
+contentPropertyDidChange	tmp/ember-rails/ember.js	/^function contentPropertyDidChange(content, contentKey) {$/;"	f
+contentPropertyWillChange	tmp/ember-rails/ember.js	/^function contentPropertyWillChange(content, contentKey) {$/;"	f
+controllerOrProtoFor	tmp/ember-rails/ember.js	/^function controllerOrProtoFor(controllerName, container) {$/;"	f
+copy	tmp/ember-rails/ember.js	/^var copy = function(obj) {$/;"	f
+copyMap	tmp/ember-rails/ember.js	/^var copyMap = function(original, newObject) {$/;"	f
+create	app/controllers/cogs_controller.rb	/^  def create$/;"	f	class:CogsController
+create	app/controllers/widgets_controller.rb	/^  def create$/;"	f	class:WidgetsController
+createChangeMeta	tmp/ember-rails/ember.js	/^function createChangeMeta(dependentArray, item, index, propertyName, property, previousValues) {$/;"	f
+createChangeMeta.meta.arrayChanged	tmp/ember-rails/ember.js	/^    arrayChanged: dependentArray,$/;"	p
+createChangeMeta.meta.index	tmp/ember-rails/ember.js	/^    index: index,$/;"	p
+createChangeMeta.meta.item	tmp/ember-rails/ember.js	/^    item: item,$/;"	p
+createChangeMeta.meta.property	tmp/ember-rails/ember.js	/^    property: property$/;"	p
+createChangeMeta.meta.propertyName	tmp/ember-rails/ember.js	/^    propertyName: propertyName,$/;"	p
+defaultActionHandlers.error	tmp/ember-rails/ember.js	/^  error: function(error, transition, originRoute) {$/;"	m
+defaultActionHandlers.loading	tmp/ember-rails/ember.js	/^  loading: function(transition, originRoute) {$/;"	m
+defaultActionHandlers.willResolveModel	tmp/ember-rails/ember.js	/^  willResolveModel: function(transition, originRoute) {$/;"	m
+defaultCallback	tmp/ember-rails/ember.js	/^function defaultCallback(computedValue) {$/;"	f
+define	tmp/ember-rails/ember-data.js	/^  define = function(name, deps, callback) {$/;"	f
+define	tmp/ember-rails/ember.js	/^  define = function(name, deps, callback) {$/;"	f
+defineProperty	tmp/ember-rails/ember.js	/^    defineProperty = function(obj, keyName, desc) {$/;"	f
+defineProperty	tmp/ember-rails/ember.js	/^var defineProperty = Ember.defineProperty;$/;"	v
+dependentKeysDidChange	tmp/ember-rails/ember.js	/^function dependentKeysDidChange(obj, depKey, meta) {$/;"	f
+dependentKeysWillChange	tmp/ember-rails/ember.js	/^function dependentKeysWillChange(obj, depKey, meta) {$/;"	f
+descopeQueryParams	tmp/ember-rails/ember.js	/^function descopeQueryParams(params) {$/;"	f
+destroy	app/controllers/cogs_controller.rb	/^  def destroy$/;"	f	class:CogsController
+destroy	app/controllers/widgets_controller.rb	/^  def destroy$/;"	f	class:WidgetsController
+destroying	tmp/ember-rails/ember.js	/^var destroying = Ember.View.states.destroying = Ember.create(Ember.View.states._default);$/;"	v
+detectBinding	tmp/ember-rails/ember.js	/^function detectBinding(obj, key, value, m) {$/;"	f
+element	tmp/ember-rails/ember.js	/^    var element = document.createElement(tagString),$/;"	v
+endPropertyChanges	tmp/ember-rails/ember.js	/^function endPropertyChanges() {$/;"	f
+evaluateUnboundHelper	tmp/ember-rails/ember.js	/^function evaluateUnboundHelper(context, fn, normalizedProperties, options) {$/;"	f
+exists	tmp/ember-rails/ember.js	/^function exists(value) {$/;"	f
+expandProperties	tmp/ember-rails/ember.js	/^var expandProperties = Ember.expandProperties;$/;"	v
+findChildById	tmp/ember-rails/ember.js	/^var findChildById = function(element, id) {$/;"	f
+findChildRouteName	tmp/ember-rails/ember.js	/^function findChildRouteName(parentRoute, originatingChildRoute, name) {$/;"	f
+findNamespaces	tmp/ember-rails/ember.js	/^function findNamespaces() {$/;"	f
+finishChains	tmp/ember-rails/ember.js	/^function finishChains(chainNodes)$/;"	f
+finishPartial	tmp/ember-rails/ember.js	/^function finishPartial(obj, m) {$/;"	f
+firstKey	tmp/ember-rails/ember.js	/^function firstKey(path) {$/;"	f
+fmt	tmp/ember-rails/ember.js	/^var fmt = Ember.String.fmt;$/;"	v
+followAlias	tmp/ember-rails/ember.js	/^function followAlias(obj, desc, m, descs, values) {$/;"	f
+forEach	tmp/ember-rails/ember.js	/^var forEach = Ember.ArrayPolyfills.forEach;$/;"	v
+forEach	tmp/ember-rails/ember.js	/^var forEach = Ember.EnumerableUtils.forEach,$/;"	v
+forEach	tmp/ember-rails/ember.js	/^var forEach = Ember.EnumerableUtils.forEach;$/;"	v
+forEachRouteAbove	tmp/ember-rails/ember.js	/^function forEachRouteAbove(originRoute, transition, callback) {$/;"	f
+function.F	tmp/ember-rails/ember.js	/^  function F() {}$/;"	f
+function.resolve	tmp/ember-rails/ember.js	/^    function resolve(child) {$/;"	f
+function.stripTagName	tmp/ember-rails/ember.js	/^function stripTagName(tagName) {$/;"	f
+generateGuid	tmp/ember-rails/ember.js	/^Ember.generateGuid = function generateGuid(obj, prefix) {$/;"	f
+get	tmp/ember-rails/ember.js	/^get = function get(obj, keyName) {$/;"	f
+get	tmp/ember-rails/ember.js	/^var get     = Ember.get,$/;"	v
+get	tmp/ember-rails/ember.js	/^var get = Ember.get, set = Ember.set, fmt = Ember.String.fmt;$/;"	v
+get	tmp/ember-rails/ember.js	/^var get = Ember.get, set = Ember.set,$/;"	v
+get	tmp/ember-rails/ember.js	/^var get = Ember.get, set = Ember.set;$/;"	v
+get	tmp/ember-rails/ember.js	/^var get = Ember.get,$/;"	v
+get	tmp/ember-rails/ember.js	/^var get = Ember.get;$/;"	v
+getMeta	tmp/ember-rails/ember.js	/^Ember.getMeta = function getMeta(obj, property) {$/;"	f
+getProperties	tmp/ember-rails/ember.js	/^function getProperties(self, propertyNames) {$/;"	f
+getQueryParamsForRoute	tmp/ember-rails/ember.js	/^function getQueryParamsForRoute(route, result) {$/;"	f
+getWithGlobals	tmp/ember-rails/ember.js	/^function getWithGlobals(obj, path) {$/;"	f
+giveDescriptorSuper	tmp/ember-rails/ember.js	/^function giveDescriptorSuper(meta, key, property, values, descs) {$/;"	f
+giveMethodSuper	tmp/ember-rails/ember.js	/^function giveMethodSuper(obj, key, method, values, descs) {$/;"	f
+guidFor	tmp/ember-rails/ember.js	/^Ember.guidFor = function guidFor(obj) {$/;"	f
+handlebarsGet	tmp/ember-rails/ember.js	/^var handlebarsGet = Ember.Handlebars.get, normalizePath = Ember.Handlebars.normalizePath;$/;"	v
+handlebarsGetEscaped	tmp/ember-rails/ember.js	/^var handlebarsGetEscaped = Ember.Handlebars.getEscaped;$/;"	v
+hasElement	tmp/ember-rails/ember.js	/^var hasElement = Ember.View.states.hasElement = Ember.create(Ember.View.states._default);$/;"	v
+hasListeners	tmp/ember-rails/ember.js	/^function hasListeners(obj, eventName) {$/;"	f
+htmlSafe	tmp/ember-rails/ember.js	/^var htmlSafe = Ember.String.htmlSafe;$/;"	v
+inBuffer	tmp/ember-rails/ember.js	/^var inBuffer = Ember.View.states.inBuffer = Ember.create(Ember.View.states._default);$/;"	v
+inDOM	tmp/ember-rails/ember.js	/^var inDOM = Ember.View.states.inDOM = Ember.create(hasElement);$/;"	v
+index	app/controllers/cogs_controller.rb	/^  def index$/;"	f	class:CogsController
+index	app/controllers/welcome_controller.rb	/^  def index$/;"	f	class:WelcomeController
+index	app/controllers/widgets_controller.rb	/^  def index$/;"	f	class:WidgetsController
+indexOf	tmp/ember-rails/ember.js	/^function indexOf(array, target, method) {$/;"	f
+indicies	tmp/ember-rails/ember.js	/^  var indicies, guid;$/;"	v
+initFn	tmp/ember-rails/ember.js	/^    initFn = function (array, changeMeta, instanceMeta) {$/;"	f
+initFn.setupSortProperties	tmp/ember-rails/ember.js	/^      function setupSortProperties() {$/;"	f
+initFn.updateSortProperties	tmp/ember-rails/ember.js	/^      function updateSortProperties(propertyName) {$/;"	f
+initFn.updateSortPropertiesOnce	tmp/ember-rails/ember.js	/^      function updateSortPropertiesOnce() {$/;"	f
+initMixin	tmp/ember-rails/ember.js	/^function initMixin(mixin, args) {$/;"	f
+insertViewCollection	tmp/ember-rails/ember.js	/^function insertViewCollection(view, viewCollection, previous, buffer) {$/;"	f
+instanceMeta.order	tmp/ember-rails/ember.js	/^      instanceMeta.order = function (itemA, itemB) {$/;"	f
+isDefinePropertySimulated	tmp/ember-rails/ember.js	/^var isDefinePropertySimulated = Ember.platform.defineProperty.isSimulated;$/;"	v
+isKeyName	tmp/ember-rails/ember.js	/^function isKeyName(path) {$/;"	f
+isMethod	tmp/ember-rails/ember.js	/^function isMethod(obj) {$/;"	f
+isWatching	tmp/ember-rails/ember.js	/^Ember.isWatching = function isWatching(obj, key) {$/;"	f
+iter	tmp/ember-rails/ember.js	/^function iter(key, value) {$/;"	f
+iter.i	tmp/ember-rails/ember.js	/^  function i(item) {$/;"	f
+iterDeps	tmp/ember-rails/ember.js	/^function iterDeps(method, obj, depKey, seen, meta) {$/;"	f
+keysForDep	tmp/ember-rails/ember.js	/^function keysForDep(depsMeta, depKey) {$/;"	f
+lazyGet	tmp/ember-rails/ember.js	/^function lazyGet(obj, key) {$/;"	f
+len	tmp/ember-rails/ember.js	/^    var len = classNames.length, i;$/;"	v
+libraries.deRegister	tmp/ember-rails/ember.js	/^  libraries.deRegister = function(name) {$/;"	f
+libraries.each	tmp/ember-rails/ember.js	/^  libraries.each = function (callback) {$/;"	f
+libraries.register	tmp/ember-rails/ember.js	/^  libraries.register = function(name, version) {$/;"	f
+libraries.registerCoreLibrary	tmp/ember-rails/ember.js	/^  libraries.registerCoreLibrary = function(name, version) {$/;"	f
+listenersFor	tmp/ember-rails/ember.js	/^function listenersFor(obj, eventName) {$/;"	f
+logToConsole	tmp/ember-rails/ember.js	/^      logToConsole = function() {$/;"	f
+makeBindings	tmp/ember-rails/ember.js	/^function makeBindings(thisContext, options) {$/;"	f
+makeCtor	tmp/ember-rails/ember.js	/^function makeCtor() {$/;"	f
+makeCtor.Class	tmp/ember-rails/ember.js	/^  var Class = function() {$/;"	c
+makeToString	tmp/ember-rails/ember.js	/^function makeToString(ret) {$/;"	f
+map	tmp/ember-rails/ember.js	/^var map = Ember.ArrayPolyfills.map;$/;"	v
+mergeMixins	tmp/ember-rails/ember.js	/^function mergeMixins(mixins, m, descs, values, base, keys) {$/;"	f
+mergeMixins.removeKeys	tmp/ember-rails/ember.js	/^  function removeKeys(keyName) {$/;"	f
+meta	tmp/ember-rails/ember.js	/^Ember.meta = function meta(obj, writable) {$/;"	f
+metaForDeps	tmp/ember-rails/ember.js	/^function metaForDeps(meta) {$/;"	f
+metaPath	tmp/ember-rails/ember.js	/^Ember.metaPath = function metaPath(obj, path, writable) {$/;"	f
+method	tmp/ember-rails/ember.js	/^  var method = typeof consoleObj === 'object' ? consoleObj[name] : null;$/;"	v
+mixinProperties	tmp/ember-rails/ember.js	/^function mixinProperties(to, from) {$/;"	f
+mixinsMeta	tmp/ember-rails/ember.js	/^function mixinsMeta(obj) {$/;"	f
+movesWhitespace	tmp/ember-rails/ember.js	/^var movesWhitespace = typeof document !== 'undefined' && (function() {$/;"	v
+mutation	tmp/ember-rails/ember.js	/^var mutation = Ember.Object.extend(Ember.Evented).create();$/;"	v
+normalizeIndex	tmp/ember-rails/ember.js	/^function normalizeIndex(index, length, newItemsOffset) {$/;"	f
+normalizeRemoveCount	tmp/ember-rails/ember.js	/^function normalizeRemoveCount(index, length, removedCount) {$/;"	f
+notifyBeforeObservers	tmp/ember-rails/ember.js	/^function notifyBeforeObservers(obj, keyName) {$/;"	f
+notifyMutationListeners	tmp/ember-rails/ember.js	/^function notifyMutationListeners() {$/;"	f
+notifyObservers	tmp/ember-rails/ember.js	/^function notifyObservers(obj, keyName) {$/;"	f
+nullDescriptor.configurable	tmp/ember-rails/ember.js	/^  configurable: true,$/;"	p
+nullDescriptor.enumerable	tmp/ember-rails/ember.js	/^  enumerable: false,$/;"	p
+nullDescriptor.value	tmp/ember-rails/ember.js	/^  value: null$/;"	p
+nullDescriptor.writable	tmp/ember-rails/ember.js	/^  writable: true,$/;"	p
+nullViewsBuffer	tmp/ember-rails/ember.js	/^function nullViewsBuffer(view) {$/;"	f
+o_create	tmp/ember-rails/ember.js	/^var o_create = Ember.create;$/;"	v
+observer	tmp/ember-rails/ember.js	/^      observer = function() {$/;"	f
+observerContext.beforeObserver	tmp/ember-rails/ember.js	/^    observerContext.beforeObserver = function (obj, keyName) {$/;"	f
+observerContext.observer	tmp/ember-rails/ember.js	/^    observerContext.observer = function (obj, keyName) {$/;"	f
+onEnd	tmp/ember-rails/ember.js	/^var onEnd = function(current, next) {$/;"	f
+onerror	tmp/ember-rails/ember.js	/^function onerror(args) {$/;"	f
+options.addedItem	tmp/ember-rails/ember.js	/^    addedItem: function(array, item, changeMeta, instanceMeta) {$/;"	m
+options.removedItem	tmp/ember-rails/ember.js	/^    removedItem: function(array, item, changeMeta, instanceMeta) {$/;"	m
+partiallyRecomputeFor	tmp/ember-rails/ember.js	/^function partiallyRecomputeFor(obj, dependentKey) {$/;"	f
+platform.defineProperty	tmp/ember-rails/ember.js	/^  platform.defineProperty = function(obj, keyName, desc) {$/;"	f
+popCtx	tmp/ember-rails/ember.js	/^function popCtx() {$/;"	f
+populateListeners	tmp/ember-rails/ember.js	/^var populateListeners = function(name) {$/;"	f
+processAllNamespaces	tmp/ember-rails/ember.js	/^function processAllNamespaces() {$/;"	f
+processNamespace	tmp/ember-rails/ember.js	/^function processNamespace(paths, root, seen) {$/;"	f
+promiseAlias	tmp/ember-rails/ember.js	/^function promiseAlias(name) {$/;"	f
+propertyDidChange	tmp/ember-rails/ember.js	/^function propertyDidChange(obj, keyName) {$/;"	f
+propertyWillChange	tmp/ember-rails/ember.js	/^function propertyWillChange(obj, keyName) {$/;"	f
+pushCtx	tmp/ember-rails/ember.js	/^function pushCtx(ctx) {$/;"	f
+registerComponentLookup	tmp/ember-rails/ember.js	/^function registerComponentLookup(container) {$/;"	f
+registerComputed	tmp/ember-rails/ember.js	/^  registerComputed = function (name, macro) {$/;"	f
+registerComputed	tmp/ember-rails/ember.js	/^var registerComputed, registerComputedWithProperties;$/;"	v
+registerComputedWithProperties	tmp/ember-rails/ember.js	/^  registerComputedWithProperties = function(name, macro) {$/;"	f
+registry.callback	tmp/ember-rails/ember-data.js	/^      callback: callback$/;"	p
+registry.callback	tmp/ember-rails/ember.js	/^    registry[name] = { deps: deps, callback: callback };$/;"	p
+registry.deps	tmp/ember-rails/ember-data.js	/^      deps: deps,$/;"	p
+registry.deps	tmp/ember-rails/ember.js	/^    registry[name] = { deps: deps, callback: callback };$/;"	p
+reify	tmp/ember-rails/ember-data.js	/^  function reify(deps, name, seen) {$/;"	f
+removeDependentKeys	tmp/ember-rails/ember.js	/^function removeDependentKeys(desc, obj, keyName, meta) {$/;"	f
+removeListener	tmp/ember-rails/ember.js	/^function removeListener(obj, eventName, target, method) {$/;"	f
+removeListener._removeListener	tmp/ember-rails/ember.js	/^  function _removeListener(target, method) {$/;"	f
+removeObserverForContentKey	tmp/ember-rails/ember.js	/^function removeObserverForContentKey(content, keyName, proxy, idx, loc) {$/;"	f
+renderPartial	tmp/ember-rails/ember.js	/^function renderPartial(context, name, options) {$/;"	f
+replaceObserversAndListeners	tmp/ember-rails/ember.js	/^function replaceObserversAndListeners(obj, key, observerOrListener) {$/;"	f
+requirejs.clear	tmp/ember-rails/ember-data.js	/^  requirejs.clear = function(){$/;"	f
+reset	tmp/ember-rails/ember.js	/^function reset(cp, propertyName) {$/;"	f
+resolve	tmp/ember-rails/ember-data.js	/^  function resolve(child, name) {$/;"	f
+return	tmp/ember-rails/ember.js	/^  return func && Function.prototype.toString.call(func).indexOf('[native code]') > -1;$/;"	c
+return.Descriptor	tmp/ember-rails/ember.js	/^    return Ember.Descriptor.prototype.toString.apply(this, arguments);$/;"	c
+return.Descriptor.toString	tmp/ember-rails/ember.js	/^    return Ember.Descriptor.prototype.toString.apply(this, arguments);$/;"	m
+return.ViewCollection.objectAt	tmp/ember-rails/ember.js	/^  objectAt: function(idx) {$/;"	m
+return.toString	tmp/ember-rails/ember.js	/^  return func && Function.prototype.toString.call(func).indexOf('[native code]') > -1;$/;"	m
+route	tmp/ember-rails/ember.js	/^function route(dsl, name, options) {$/;"	f
+routeHasBeenDefined	tmp/ember-rails/ember.js	/^function routeHasBeenDefined(router, name) {$/;"	f
+run	tmp/ember-rails/ember.js	/^var run = Ember.run;$/;"	v
+sendAction	tmp/ember-rails/ember.js	/^function sendAction(eventName, view, event) {$/;"	f
+sendEvent	tmp/ember-rails/ember.js	/^function sendEvent(obj, eventName, params, actions) {$/;"	f
+set	tmp/ember-rails/ember.js	/^var set = function set(obj, keyName, value, tolerant) {$/;"	f
+setInnerHTMLWithoutFix	tmp/ember-rails/ember.js	/^var setInnerHTMLWithoutFix = function(element, html) {$/;"	c
+setMeta	tmp/ember-rails/ember.js	/^Ember.setMeta = function setMeta(obj, property, value) {$/;"	f
+setPath	tmp/ember-rails/ember.js	/^function setPath(root, path, value, tolerant) {$/;"	f
+shouldDisplayIfHelperContent	tmp/ember-rails/ember.js	/^function shouldDisplayIfHelperContent(result) {$/;"	f
+show	app/controllers/cogs_controller.rb	/^  def show$/;"	f	class:CogsController
+show	app/controllers/widgets_controller.rb	/^  def show$/;"	f	class:WidgetsController
+simpleBind	tmp/ember-rails/ember.js	/^function simpleBind(currentContext, property, options) {$/;"	f
+states	tmp/ember-rails/ember.js	/^var states = Ember.View.cloneStates(Ember.View.states), merge = Ember.merge;$/;"	v
+superClassString	tmp/ember-rails/ember.js	/^function superClassString(mixin) {$/;"	f
+superFunction	tmp/ember-rails/ember.js	/^function superFunction(){$/;"	f
+suspendListener	tmp/ember-rails/ember.js	/^function suspendListener(obj, eventName, target, method, callback) {$/;"	f
+suspendListener.finalizer	tmp/ember-rails/ember.js	/^  function finalizer() { if (actionIndex !== -1) { actions[actionIndex+2] &= ~SUSPENDED; } }$/;"	f
+suspendListener.tryable	tmp/ember-rails/ember.js	/^  function tryable()   { return callback.call(target); }$/;"	f
+suspendListeners	tmp/ember-rails/ember.js	/^function suspendListeners(obj, eventNames, target, method, callback) {$/;"	f
+suspendListeners.finalizer	tmp/ember-rails/ember.js	/^  function finalizer() {$/;"	f
+suspendListeners.tryable	tmp/ember-rails/ember.js	/^  function tryable() { return callback.call(target); }$/;"	f
+t	tmp/ember-rails/ember.js	/^var t = "Boolean Number String Function Array Date RegExp Object".split(" ");$/;"	v
+tap	tmp/ember-rails/ember.js	/^function tap(proxy, promise) {$/;"	f
+this.changedItems.array	tmp/ember-rails/ember.js	/^        array:            array,$/;"	p
+this.changedItems.obj	tmp/ember-rails/ember.js	/^        obj:              obj,$/;"	p
+this.changedItems.observerContext	tmp/ember-rails/ember.js	/^        observerContext:  observerContext,$/;"	p
+this.changedItems.previousValues	tmp/ember-rails/ember.js	/^        previousValues:   {}$/;"	p
+triggerEvent	tmp/ember-rails/ember.js	/^function triggerEvent(handlerInfos, ignoreFailure, args) {$/;"	f
+undefinedDescriptor.configurable	tmp/ember-rails/ember.js	/^  configurable: true,$/;"	p
+undefinedDescriptor.enumerable	tmp/ember-rails/ember.js	/^  enumerable: false,$/;"	p
+undefinedDescriptor.value	tmp/ember-rails/ember.js	/^  value: undefined$/;"	p
+undefinedDescriptor.writable	tmp/ember-rails/ember.js	/^  writable: true,$/;"	p
+update	app/controllers/cogs_controller.rb	/^  def update$/;"	f	class:CogsController
+update	app/controllers/widgets_controller.rb	/^  def update$/;"	f	class:WidgetsController
+updateObserversAndListeners	tmp/ember-rails/ember.js	/^function updateObserversAndListeners(obj, key, observerOrListener, pathsKey, updateMethod) {$/;"	f
+updatePaths	tmp/ember-rails/ember.js	/^function updatePaths(router) {$/;"	f
+var.ClassSet	tmp/ember-rails/ember.js	/^var ClassSet = function() {$/;"	c
+var.K	tmp/ember-rails/ember.js	/^  var K = function() {};$/;"	f
+var.addImplicitCPs	tmp/ember-rails/ember.js	/^  var addImplicitCPs = function defineImplicitCPs(obj, implicitCPs, meta) {$/;"	f
+var.asyncEnd	tmp/ember-rails/ember.js	/^  var asyncEnd = function() {$/;"	f
+var.asyncStart	tmp/ember-rails/ember.js	/^  var asyncStart = function() {$/;"	f
+var.defineImplicitCPs	tmp/ember-rails/ember.js	/^  var addImplicitCPs = function defineImplicitCPs(obj, implicitCPs, meta) {$/;"	f
+var.implicitKey	tmp/ember-rails/ember.js	/^  var implicitKey = function (cp) {$/;"	f
+var.normalizeDependentKey	tmp/ember-rails/ember.js	/^  var normalizeDependentKey = function (key) {$/;"	f
+var.normalizeDependentKeys	tmp/ember-rails/ember.js	/^  var normalizeDependentKeys = function (keys) {$/;"	f
+var.selectDependentCPs	tmp/ember-rails/ember.js	/^  var selectDependentCPs = function (keys) {$/;"	f
+var.setDependentKeys	tmp/ember-rails/ember.js	/^  var setDependentKeys = function(cp, dependentKeys) {$/;"	f
+wNum	tmp/ember-rails/ember.js	/^      var wNum = w.getTime();$/;"	v
+watchedEvents	tmp/ember-rails/ember.js	/^function watchedEvents(obj) {$/;"	f
