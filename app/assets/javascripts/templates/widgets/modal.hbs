@@ -8,14 +8,14 @@
   </div>
   <form {{action save on="submit"}}>
     <div class="modal-body">
-      <div {{bindAttr class="errors.name:error :field"}}>
+      <div {{bind-attr class="errors.name:error :field"}}>
         <label>Name</label>
         {{view Ember.TextField valueBinding="name"}}
         {{#each msg in errors.name}}{{msg}}{{/each}}
       </div>
     </div>
     <div class="modal-footer">
-      <button type="submit" {{bindAttr disabled="shouldDisableSubmit"}}>Save</button>
+      <button type="submit" {{bind-attr disabled="shouldDisableSubmit"}}>Save</button>
       <button {{action close}}>Cancel</button>
       {{#if isSaving}}
         <img src="{{unbound App.AJAX_LOADER_IMG}}" alt="Loading..." class="ajax-loader">

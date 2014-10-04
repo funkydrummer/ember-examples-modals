@@ -8,7 +8,8 @@ App.ModalController = Em.ObjectController.extend({
   },
 
   save: function() {
-    this.get('model.transaction').commit();
+    this.set('isEditing', false);
+    this.get('model').save();
   },
 
   close: function() {
