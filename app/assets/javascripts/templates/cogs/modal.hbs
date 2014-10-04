@@ -11,7 +11,7 @@
       <div {{bindAttr class="errors.name:error :field"}}>
         <label>Name</label>
         {{view Ember.TextField valueBinding="name"}}
-        {{#each msg in errors.name}}{{msg}}{{/each}}
+        {{#each error in errors.name}}{{error.message}}{{/each}}
       </div>
     </div>
     <div class="modal-footer">
