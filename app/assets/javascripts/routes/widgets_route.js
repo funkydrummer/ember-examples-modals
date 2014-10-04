@@ -17,24 +17,9 @@ App.WidgetsRoute = Em.Route.extend({
   }
 });
 
-// App.WidgetsIndexRoute = Em.Route.extend({
-  // model: function() {
-    // return App.Widget.find();
-  // }
-// });
-
 App.WidgetsIndexRoute = Em.Route.extend({
   model: function() {
     return this.store.find('widget');
-    // return App.Widget.find();
   }
-
-  // setupController: function(controller, model){
-    // controller.set('model', model);
-  // }
-
-  // setupController: function(controller, model) {
-    // controller.set('model', model);
-  // }
 });
 
