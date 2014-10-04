@@ -9,7 +9,7 @@
   <tbody>
     {{#each controller}}
     <tr>
-      <td>{{#linkTo cogs.show this}}{{name}}{{/linkTo}}</td>
+      <td>{{#link-to 'cogs.show' this}}{{name}}{{/link-to}}</td>
       <td class="actions">
         <button {{action edit this}}>edit</button>
         <button {{action confirmDelete this}}>delete</button>
