@@ -1,12 +1,10 @@
-//= require jquery-2.0.0
+//= require jquery
 //= require jquery_ujs
-//= require ember-head
-//= require ember-data-head
+//= require handlebars
+//= require ember
+//= require ember-data
 //= require_self
-//= require_tree .
-App = Ember.Application.create();
+//= require modal
 
-App.Store = DS.Store.extend({
-  revision: 12
-});
+App = Ember.Application.create();
 

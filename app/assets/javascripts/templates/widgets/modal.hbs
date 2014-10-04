@@ -6,7 +6,7 @@
       Editing: {{unbound name}}
     {{/if}}
   </div>
-  <form {{action save on="submit"}}>
+  <form {{action save this on="submit"}}>
     <div class="modal-body">
       <div {{bindAttr class="errors.name:error :field"}}>
         <label>Name</label>

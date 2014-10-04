@@ -1,6 +1,6 @@
 App.WidgetsModalController = App.ModalController.extend({
   create: function() {
-    var widget = App.Widget.createRecord();
+    var widget = this.store.createRecord('widget');
 
     widget.on('didCreate', this, function() {
       this.send('close');

@@ -11,6 +11,7 @@ end
 
 gem 'jquery-rails'
 gem 'ember-rails'
+gem 'ember-source', '1.5.0' # or the version you need
 
 group :development do
   gem 'rb-fsevent'

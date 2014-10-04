@@ -19,6 +19,6 @@ App.CogsRoute = Em.Route.extend({
 
 App.CogsIndexRoute = Em.Route.extend({
   model: function() {
-    return App.Cog.find();
+    return this.store.find('cog');
   }
 });
