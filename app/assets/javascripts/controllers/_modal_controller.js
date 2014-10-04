@@ -9,9 +9,7 @@ App.ModalController = Em.ObjectController.extend({
 
   save: function() {
     this.get('model').save().then(function(){
-      console.log("Save successful");
     },function(response){
-      console.log("Save not successful");
     });
   },
 

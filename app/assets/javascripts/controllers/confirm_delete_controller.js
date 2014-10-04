@@ -15,7 +15,7 @@ App.ConfirmDeleteController = Em.ObjectController.extend({
     });
 
     model.deleteRecord();
-    model.get('transaction').commit();
+    model.save();
   },
 
   close: function() {
